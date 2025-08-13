@@ -73,3 +73,6 @@ Desktop.ini
 tmp/
 temp/
 .cache/
+
+
+vendor/bundle

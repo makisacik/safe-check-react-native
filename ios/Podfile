@@ -10,6 +10,7 @@ prepare_react_native_project!
 
 # Disable New Architecture to fix safe-area-context compatibility issues
 ENV['RCT_NEW_ARCH_ENABLED'] = '0'
+ENV['NODE_BINARY'] = '/Users/mkisacik/.volta/bin/node'
 
 linkage = ENV['USE_FRAMEWORKS']
 if linkage != nil
